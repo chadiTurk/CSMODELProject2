@@ -11,7 +11,7 @@ class CollaborativeFiltering(object):
             k {int} -- number of similar items to consider
         """
         self.k = k
-
+    
     def get_row_mean(self, data):
         """Returns the mean of each row in the DataFrame or the mean of the
         Series. If the parameter data is a DataFrame, the function will
